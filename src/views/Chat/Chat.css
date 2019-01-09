@@ -1,0 +1,32 @@
+.Main {
+    width: 100%;
+}
+
+.ChatBox {
+    width: 100%;
+    margin-left: 240px;
+    grid-area: m;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.sendMessageForm {
+    grid-area: f;
+    width: 100%;
+
+}
+
+.app {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 60px;
+    grid-template-areas: 
+        "m m m m m m"
+        "m m m m m m"
+        "m m m m m m"
+        "m m m m m m"
+        "m m m m m m"
+        "f f f f f f";
+}

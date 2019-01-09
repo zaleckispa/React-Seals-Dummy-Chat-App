@@ -1,0 +1,13 @@
+.Main {
+    width: 100%;
+}
+
+.Card {
+    width: 100%;
+    margin-left: 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
